@@ -375,7 +375,8 @@ def main():
 
     logger.info("✅ Бот запущено!")
     print("✅ Бот запущено! Натисніть Ctrl+C для зупинки.")
-    app.run_polling(drop_pending_updates=True)
+    import asyncio
+    asyncio.run(app.run_polling(drop_pending_updates=True))
 
 
 if __name__ == "__main__":
