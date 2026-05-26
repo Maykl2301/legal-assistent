@@ -1,0 +1,7 @@
+.env
+*.env
+lawyer_bot.db
+*.db
+bot.log
+*.log
+__pycache__/
